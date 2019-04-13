@@ -1,0 +1,47 @@
+= Creating a maven project
+:imagesdir: images
+
+== About this chapter
+In this chapter, we will create a maven project and you will learn, which libraries are required for our implementation.
+
+== Video
+
+
+image:https://img.youtube.com/vi/o4D3C4z6cDk/0.jpg[link="https://youtu.be/o4D3C4z6cDk"]
+
+If the video is not shown, click link:https://youtu.be/o4D3C4z6cDk[here]
+TODO: Update Link!!!!
+
+== Description
+Before starting with our implementation, you should have a basic understanding on Maven, as we will include our libraries as maven dependencies.
+
+For further information on maven, see https://maven.apache.org/.
+
+The Java-API-sourcecodes and documenation can be found link:https://github.com/DKE-Data/agrirouter-api-java[here].
+
+The protobuf project can be found link:https://github.com/DKE-Data/agrirouter-api-protobuf-definitions[here]
+
+For more libraries, see link:https://github.com/DKE-Data/[https://github.com/DKE-Data/]
+
+== Slides
+
+There are no slides available for this chapter.
+
+== SourceCodes
+The SourceCodes can be found link:./src/[here].
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
+
+
+==== Link Section
+This page is found in every file and links to the major topics
+[width="100%"]
+|====
+|link:../03-create-application/index.adoc[<<Previous]|link:../README.adoc[OverView]|link:../05-onboard-appinstances/index.adoc[Next>>]
+|====
+

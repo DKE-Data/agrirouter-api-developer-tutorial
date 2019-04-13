@@ -1,0 +1,42 @@
+= Send Capabilities
+:imagesdir: images
+
+== About this chapter
+In this chapter, we will send the capabilities, which is required to inform agrirouter, which message types our app instance **really** can exchange. Those are a subset of the Capabilities from setting up the Software Version.
+
+== Video
+
+image:https://img.youtube.com/vi/BEWulJgHMm4/0.jpg[link="https://www.youtube.com/watch?v=BEWulJgHMm4"]
+
+If the video is not shown, click link:https://youtu.be/BEWulJgHMm4[here]
+
+== Description
+In this chapter, we will send the capabilities, which is required to inform agrirouter, which message types our app instance **really** can exchange. Those are a subset of the Capabilities from setting up the Software Version.
+
+We will do this with our CU endpoint, but it is the same for every type of app instance.
+
+The capabilities can include any of the available link:https://github.com/DKE-Data/agrirouter-interface-documentation/tree/develop/docs/tmt[Technical Message Types].
+
+
+== Slides
+
+There are no slides available for this chapter.
+
+== SourceCodes
+The source code can be found link:./src[here].
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
+
+
+==== Link Section
+This page is found in every file and links to the major topics
+[width="100%"]
+|====
+|link:../06-message-exchange.adoc[<<Previous]|link:../README.adoc[OverView]|link:../08-set-routings/index.adoc[Next>>]
+|====
+

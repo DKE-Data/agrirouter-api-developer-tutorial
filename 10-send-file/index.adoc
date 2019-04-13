@@ -1,0 +1,35 @@
+= Send a file via agrirouter
+:imagesdir: images
+
+== About this chapter
+In this chapter, we will put a file "on agrirouter", which means in the feed of another endpoint.
+
+== Video
+
+This video is not yet uploaded
+
+== Description
+In this chapter, we will put a file "on agrirouter", which means in the feed of another endpoint.
+
+== Slides
+
+There are no slides available for this chapter.
+
+== SourceCodes
+The source codes to this chapter can be found link:./src[here].
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
+
+
+==== Link Section
+This page is found in every file and links to the major topics
+[width="100%"]
+|====
+|link:../10-request-endpointlist/index.adoc[<<Previous]|link:../README.adoc[OverView]|link:../12-receive-file/index.adoc[Next>>]
+|====
+

@@ -1,0 +1,43 @@
+= Creating a developer account
+:imagesdir: images
+
+== About this chapter
+In this chapter, you will create your developer account to get started.
+
+== Video
+
+There is no video available for this topic :(
+
+== Description
+Before being able to create applications, you need to create an agrirouter account.
+
+If you need further information on business related topics, please refer to link:https://my-agrirouter.com/en/company/business-model/[the my-agrirouter website].
+
+You can create your developer account for QA link:https://agrirouter-qa.cfapps.eu10.hana.ondemand.com/um/register/developer[here].
+
+You can create your developer account for the productive environment link:https://goto.my-agrirouter.com/um/register/developer[here]
+
+
+
+== Slides
+
+There are no slides for this chapter.
+
+== SourceCodes
+This chapter does not include any sourcecodes
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
+
+
+==== Link Section
+This page is found in every file and links to the major topics
+[width="100%"]
+|====
+|link:../01-introduction/index.adoc[<<Previous]|link:../README.adoc[OverView]|link:../03-create-application/index.adoc[Next>>]
+|====
+

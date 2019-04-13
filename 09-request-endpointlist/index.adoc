@@ -1,0 +1,39 @@
+= Requesting the endpoint list - Finding our ecosystem
+:imagesdir: images
+
+== About this chapter
+In this chapter, we will request the endpoints list to check our routings and to find the partners, we want to send data to (in the next chapter). 
+
+== Video
+
+image:https://img.youtube.com/vi/HYN9rCsYXS0/0.jpg[link="https://www.youtube.com/watch?v=HYN9rCsYXS0"]
+
+If the video is not shown, click link:https://youtu.be/HYN9rCsYXS0[here]
+
+== Description
+In this chapter, we will request the endpoints list to check our routings and to find the partners, we want to send data to (in the next chapter). We will find out about the eco system around our app instance.
+
+Learn about the message format of EndpointLists link:https://github.com/DKE-Data/agrirouter-interface-documentation/blob/develop/docs/commands/ecosystem.adoc[here].
+
+== Slides
+
+There are no slides available for this chapter.
+
+== SourceCodes
+The sourcecode can be found link:./src[here].
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
+
+
+==== Link Section
+This page is found in every file and links to the major topics
+[width="100%"]
+|====
+|link:../09-send-subscriptions/index.adoc[<<Previous]|link:../README.adoc[OverView]|link:../11-send-file/index.adoc[Next>>]
+|====
+

@@ -1,0 +1,36 @@
+= Receive file
+:imagesdir: images
+
+== About this chapter
+In this chapter, we will read a file from our app instances feed.
+
+== Video
+
+The video for this chapter is not yet uploaded.
+
+== Description
+In this chapter, we will read a file from our app instances feed. We will first only read the header, then read the message and finally confirm it to remove it from our feed.
+
+
+== Slides
+
+There are no slides available for this chapter.
+
+== SourceCodes
+The source codes can be found link:./src/[here].
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
+
+
+==== Link Section
+This page is found in every file and links to the major topics
+[width="100%"]
+|====
+|link:../11-send-file/index.adoc[<<Previous]|link:../README.adoc[OverView]|
+|====
+

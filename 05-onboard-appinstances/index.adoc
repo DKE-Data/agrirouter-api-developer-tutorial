@@ -1,0 +1,91 @@
+= Onboard AppInstances
+:imagesdir: images
+
+== About this chapter
+In this chapter, we will onboard instances of our 3 applications. We will use the postman tools for that.
+
+== Onboarding a CU
+
+=== Video
+
+image:https://img.youtube.com/vi/qYwAjZyIpxo/0.jpg[link="https://www.youtube.com/watch?v=qYwAjZyIpxo"]
+
+If the video is not shown, click link:https://youtu.be/qYwAjZyIpxo[here]
+
+=== Description
+
+In this video we onboard a communication Unit using the JavaAPI
+
+
+=== SourceCodes
+The SourceCodes can be found link:./src/01-cu/[here].
+
+=== Slides
+
+There are no slides available for this chapter.
+
+== Onboarding a Farming Software
+
+=== Video
+
+There is no video for onboarding a farming software as the process is equal to the onboarding process of a telemetry platform. The video for onboarding a telemetry platform can be found here: 
+
+image:https://img.youtube.com/vi/Pla8qGKvFr4/0.jpg[link="https://www.youtube.com/watch?v=Pla8qGKvFr4"]
+
+If the video is not shown, click link:https://youtu.be/Pla8qGKvFr4[here]
+
+=== Description
+
+In this video we onboard a Farming Software using the JavaAPI
+
+
+=== SourceCodes
+The SourceCodes can be found link:./src/02-fmis/[here].
+
+
+=== Slides
+
+There are no slides available for this chapter.
+
+== Onboarding a Telemetry Platform
+
+=== Video
+
+image:https://img.youtube.com/vi/Pla8qGKvFr4/0.jpg[link="https://www.youtube.com/watch?v=Pla8qGKvFr4"]
+
+If the video is not shown, click link:https://youtu.be/Pla8qGKvFr4[here]
+
+=== Description
+
+In this video we onboard a telemetry platform using the JavaAPI
+
+
+=== SourceCodes
+The SourceCodes can be found link:./src/03-telemetry/[here].
+
+
+=== Slides
+
+There are no slides available for this chapter.
+
+
+== Tools
+
+For onboarding tests, you can also use the link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools].
+
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
+
+
+==== Link Section
+This page is found in every file and links to the major topics
+[width="100%"]
+|====
+|link:../04-create-maven-project.adoc[<<Previous]|link:../README.adoc[OverView]|link:../006-send-capabilities/index.adoc[Next>>]
+|====
+

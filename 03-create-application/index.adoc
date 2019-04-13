@@ -1,0 +1,78 @@
+= Creating applications
+:imagesdir: images
+
+== About this chapter
+In this chapter, we will create one application of each type in the agrirouter UI.
+
+== Creating a Communication Unit
+
+=== Video
+image:https://img.youtube.com/vi/mX9UCVqIBzY/0.jpg[link="https://www.youtube.com/watch?v=mX9UCVqIBzY"]
+
+If the video is not shown, click link:https://youtu.be/mX9UCVqIBzY[here]
+
+=== Description
+In this chapter, we will create an application of type communication Unit in the agrirouter UI. Note, that we will not use sourcecode here but only generate IDs and setup the name etc. of our apps on the agrirouter.
+
+=== Slides
+
+This video does not include any slides.
+
+
+=== SourceCodes
+This chapter does not include any sourcecodes
+
+== Creating a Farming Software
+
+=== Video
+image:https://img.youtube.com/vi/pI7ml_YL12M/0.jpg[link="https://www.youtube.com/watch?v=pI7ml_YL12M"]
+
+If the video is not shown, click link:https://youtu.be/pI7ml_YL12M[here]
+
+=== Description
+In this chapter, we will create an application of type Farming Software in the agrirouter UI. We will also learn about the authorization process. Note, that we will not use sourcecode here but only generate IDs and setup the name etc. of our apps on the agrirouter.
+
+=== Slides
+
+This video includes slides about the authentication process. They can be found link:./slides/Describing_RedirectURL.ppt.pdf[here].
+
+
+=== SourceCodes
+This chapter does not include any sourcecodes
+
+== Creating a Telemetry Platform
+
+=== Video
+image:https://img.youtube.com/vi/umExo4TWcUo/0.jpg[link="https://www.youtube.com/watch?v=umExo4TWcUo"]
+
+If the video is not shown, click link:https://youtu.be/umExo4TWcUo[here]
+
+=== Description
+In this chapter, we will create an application of type telemetry Platform in the agrirouter UI. We will also learn about the authorization process. Note, that we will not use sourcecode here but only generate IDs and setup the name etc. of our apps on the agrirouter.
+
+=== Slides
+
+
+This video includes slides about the authentication process. They can be found link:./slides/Describing_RedirectURL.ppt.pdf[here].
+
+Additionally, this chapter includes slides about the difference between a farming software and a telemetry platform, that can be found link:./slides/Describing_Telemetry_Split.ppt.pdf[here].
+
+
+== SourceCodes
+This chapter does not include any sourcecodes
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
+
+
+==== Link Section
+This page is found in every file and links to the major topics
+[width="100%"]
+|====
+|link:../02-create-developer-account/index.adoc[<<Previous]|link:../README.adoc[OverView]|link:../04-create-maven-project/index.adoc[Next>>]
+|====
+

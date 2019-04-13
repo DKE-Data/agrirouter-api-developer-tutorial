@@ -1,0 +1,38 @@
+= Set up the routings
+:imagesdir: images
+
+== About this chapter
+In this chapter, we will set up some routings between our app instances.
+
+== Video
+
+image:https://img.youtube.com/vi/pTUM7bUC6Zc/0.jpg[link="https://www.youtube.com/watch?v=pTUM7bUC6Zc"]
+
+If the video is not shown, click link:https://youtu.be/pTUM7bUC6Zc[here]
+
+== Description
+In this chapter, we will set up some routings between our app instances and describe, how routings work.
+
+
+== Slides
+
+The slides from the video can be found link:./slides/08_slides.pdf[here].
+
+== SourceCodes
+This chapter does not include any sourcecodes
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
+
+
+==== Link Section
+This page is found in every file and links to the major topics
+[width="100%"]
+|====
+|link:../07-send-capabilities/index.adoc[<<Previous]|link:../README.adoc[OverView]|link:../09-send-subscriptions/index.adoc[Next>>]
+|====
+

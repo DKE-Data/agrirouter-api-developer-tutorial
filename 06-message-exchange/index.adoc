@@ -1,0 +1,39 @@
+= Basics of communication
+:imagesdir: images
+
+== About this chapter
+In this chapter, we will describe the basics of communication, that should be known when communicating with agrirouter.
+
+== Video
+
+image:https://img.youtube.com/vi/9E2gTX5IDFU/0.jpg[link="https://www.youtube.com/watch?v=9E2gTX5IDFU"]
+
+If the video is not shown, click link:https://youtu.be/9E2gTX5IDFU[here]
+
+== Description
+In this chapter, we will describe the basics of communication, that should be known when communicating with agrirouter.
+
+Basics about that can be found in link:https://github.com/DKE-Data/agrirouter-interface-documentation/blob/develop/docs/communication.adoc[Basics of communication] and link:https://github.com/DKE-Data/agrirouter-interface-documentation/blob/develop/docs/endpoint.adoc[Elements of an Endpoint].
+
+== Slides
+
+The slides from the video can be found link:./slides/06-slides.pdf[here].
+
+== SourceCodes
+There are no source codes available for this chapter.
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
+
+
+==== Link Section
+This page is found in every file and links to the major topics
+[width="100%"]
+|====
+|link:../05-onboard-appinstances.adoc[<<Previous]|link:../README.adoc[OverView]|link:../07-send-capabilities/index.adoc[Next>>]
+|====
+

@@ -1,0 +1,41 @@
+= agrirouter-api-tutorial
+:imagesdir: assets/images
+:toc:
+:toc-title:
+:toc-levels: 4
+
+[abstract]
+== Abstract
+++++
+<p align="center">
+ <img src="./assets/images/agrirouter.svg">
+</p>
+++++
+
+The agrirouter is a universal data exchange platform for farmers and agricultural contractors that makes it possible to connect machinery and agricultural software, regardless of vendor or manufacturer. Agrirouter does not save data; it transfers data. As a universal data exchange platform, agrirouter fills a gap on the way to Farming 4.0. Its underlying concept unites cross-vendor and discrimination-free data transfer. You retain full control over your data. Even data exchange with service providers (e.g. agricultural contractors) and other partners is uncomplicated: Data are very rapidly transferred via the online connection, and if you wish, is intelligently connected to other datasets.
+
+=== The current project you're looking at
+
+This repository includes a tutorial, that shall help you to understand agrirouter and do an example implementation - using the Java API - step by step.
+
+Each chapter includes a Video for the description, some text or links to sections in the documentation and an example Java Project or PDF-slides.
+
+== Overview of Topics
+
+- link:./01-introduction/index.adoc[Introduction]
+- link:./02-create-developer-account/index.adoc[Create Developer Account]
+- link:./03-create-application/index.adoc[Create Applications]
+- link:./04-create-maven-project/index.adoc[Create Maven Project]
+- link:./05-onboard-appinstances/index.adoc[Onboard AppInstances ]
+- link:./06-send-capabilities/index.adoc[Send Capabilities]
+- link:./07-set-routings/index.adoc[Set Routings]
+- link:./08-request-endpointlist/index.adoc[Request EndpointList]
+- link:./09-send-file/index.adoc[Send File]
+- link:./10-receive-file/index.adoc[Receive File]
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
