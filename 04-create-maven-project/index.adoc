@@ -6,11 +6,7 @@ In this chapter, we will create a maven project and you will learn, which librar
 
 == Video
 
-
-image:https://img.youtube.com/vi/o4D3C4z6cDk/0.jpg[link="https://youtu.be/o4D3C4z6cDk"]
-
-If the video is not shown, click link:https://youtu.be/o4D3C4z6cDk[here]
-TODO: Update Link!!!!
+This video is not yet uploaded.
 
 == Description
 Before starting with our implementation, you should have a basic understanding on Maven, as we will include our libraries as maven dependencies.

@@ -27,11 +27,12 @@ Each chapter includes a Video for the description, some text or links to section
 - link:./03-create-application/index.adoc[Create Applications]
 - link:./04-create-maven-project/index.adoc[Create Maven Project]
 - link:./05-onboard-appinstances/index.adoc[Onboard AppInstances ]
-- link:./06-send-capabilities/index.adoc[Send Capabilities]
-- link:./07-set-routings/index.adoc[Set Routings]
-- link:./08-request-endpointlist/index.adoc[Request EndpointList]
-- link:./09-send-file/index.adoc[Send File]
-- link:./10-receive-file/index.adoc[Receive File]
+- link:./06-message-exchange/index.adoc[Basics of message exchange]
+- link:./07-send-capabilities/index.adoc[Send Capabilities]
+- link:./08-routings/index.adoc[Basics of Routings]
+- link:./09-request-endpointlist/index.adoc[Request EndpointList]
+- link:./10-send-file/index.adoc[Send File]
+- link:./11-receive-file/index.adoc[Receive File]
 
 
 == Related Topics
