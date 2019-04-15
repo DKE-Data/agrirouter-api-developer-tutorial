@@ -6,7 +6,19 @@ In this chapter, you will create your developer account to get started.
 
 == Video
 
-There is no video available for this topic :(
+There is no video available for this topic made for this tutorial.
+
+You can however take a look at the corresponding video from the learnbox:
+
+image:https://img.youtube.com/vi/VgICqwjsDec/0.jpg[link="https://www.youtube.com/watch?v=VgICqwjsDec"]
+
+If the video is not shown, click link:https://youtu.be/VgICqwjsDec[here]
+
+[IMPORTANT]
+====
+Make sure, you do *NOT* create a user account but a developer account.
+====
+
 
 == Description
 Before being able to create applications, you need to create an agrirouter account.
