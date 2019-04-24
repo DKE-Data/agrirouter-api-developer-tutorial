@@ -6,7 +6,9 @@ In this chapter, we will put a file "on agrirouter", which means in the feed of 
 
 == Video
 
-This video is not yet uploaded
+image:https://img.youtube.com/vi/u4oVkRyErF0/0.jpg[link="https://www.youtube.com/watch?v=u4oVkRyErF0"]
+
+If the video is not shown, click link:https://youtu.be/u4oVkRyErF0[here]
 
 == Description
 In this chapter, we will put a file "on agrirouter", which means in the feed of another endpoint.

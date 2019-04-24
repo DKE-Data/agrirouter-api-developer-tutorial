@@ -6,7 +6,10 @@ In this chapter, we will read a file from our app instances feed.
 
 == Video
 
-The video for this chapter is not yet uploaded.
+image:https://img.youtube.com/vi/Pwfs_98IZr8/0.jpg[link="https://www.youtube.com/watch?v=Pwfs_98IZr8"]
+
+If the video is not shown, click link:https://youtu.be/Pwfs_98IZr8[here]
+
 
 == Description
 In this chapter, we will read a file from our app instances feed. We will first only read the header, then read the message and finally confirm it to remove it from our feed.
