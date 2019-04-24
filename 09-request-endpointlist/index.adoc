@@ -6,9 +6,9 @@ In this chapter, we will request the endpoints list to check our routings and to
 
 == Video
 
-image:https://img.youtube.com/vi/HYN9rCsYXS0/0.jpg[link="https://www.youtube.com/watch?v=HYN9rCsYXS0"]
+image:https://img.youtube.com/vi/aSPampMSOnI/0.jpg[link="https://www.youtube.com/watch?v=aSPampMSOnI"]
 
-If the video is not shown, click link:https://youtu.be/HYN9rCsYXS0[here]
+If the video is not shown, click link:https://youtu.be/aSPampMSOnI[here]
 
 == Description
 In this chapter, we will request the endpoints list to check our routings and to find the partners, we want to send data to (in the next chapter). We will find out about the eco system around our app instance.
