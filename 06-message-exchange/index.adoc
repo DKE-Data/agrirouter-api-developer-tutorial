@@ -6,9 +6,9 @@ In this chapter, we will describe the basics of communication, that should be kn
 
 == Video
 
-image:https://img.youtube.com/vi/9E2gTX5IDFU/0.jpg[link="https://www.youtube.com/watch?v=9E2gTX5IDFU"]
+image:https://img.youtube.com/vi/oFEVWpPyRv0/0.jpg[link="https://www.youtube.com/watch?v=oFEVWpPyRv0"]
 
-If the video is not shown, click link:https://youtu.be/9E2gTX5IDFU[here]
+If the video is not shown, click link:https://youtu.be/oFEVWpPyRv0[here]
 
 == Description
 In this chapter, we will describe the basics of communication, that should be known when communicating with agrirouter.

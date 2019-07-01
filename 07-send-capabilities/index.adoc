@@ -6,9 +6,9 @@ In this chapter, we will send the capabilities, which is required to inform agri
 
 == Video
 
-image:https://img.youtube.com/vi/BEWulJgHMm4/0.jpg[link="https://www.youtube.com/watch?v=BEWulJgHMm4"]
+image:https://img.youtube.com/vi/gO07WADAIbw/0.jpg[link="https://www.youtube.com/watch?v=gO07WADAIbw"]
 
-If the video is not shown, click link:https://youtu.be/BEWulJgHMm4[here]
+If the video is not shown, click link:https://youtu.be/gO07WADAIbw[here]
 
 == Description
 In this chapter, we will send the capabilities, which is required to inform agrirouter, which message types our app instance **really** can exchange. Those are a subset of the Capabilities from setting up the Software Version.
