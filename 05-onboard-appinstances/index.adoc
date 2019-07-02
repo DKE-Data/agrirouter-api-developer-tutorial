@@ -1,10 +1,10 @@
-= Onboard AppInstances
+= 05 - Onboard AppInstances
 :imagesdir: images
 
 == About this chapter
 In this chapter, we will onboard instances of our 3 applications. We will use the postman tools for that.
 
-== Onboarding a CU
+== 05.1 - Onboarding a CU
 
 === Video
 
@@ -24,7 +24,7 @@ The SourceCodes can be found link:./src/01-cu/[here].
 
 There are no slides available for this chapter.
 
-== Onboarding a Farming Software
+== 05.2 - Onboarding a Farming Software
 
 === Video
 
@@ -47,7 +47,7 @@ The SourceCodes can be found link:./src/02-fmis/[here].
 
 There are no slides available for this chapter.
 
-== Onboarding a Telemetry Platform
+== 05.3 Onboarding a Telemetry Platform
 
 === Video
 

@@ -1,4 +1,4 @@
-= Creating a developer account
+= 02 - Creating a developer account
 :imagesdir: images
 
 == About this chapter

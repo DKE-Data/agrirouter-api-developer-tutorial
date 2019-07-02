@@ -1,4 +1,4 @@
-= Requesting the endpoint list - Finding our ecosystem
+= 09 - Requesting the endpoint list - Finding our ecosystem
 :imagesdir: images
 
 == About this chapter

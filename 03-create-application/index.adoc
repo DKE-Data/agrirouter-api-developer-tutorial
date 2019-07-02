@@ -1,10 +1,10 @@
-= Creating applications
+= 03 - Creating applications
 :imagesdir: images
 
 == About this chapter
 In this chapter, we will create one application of each type in the agrirouter UI.
 
-== Creating a Communication Unit
+== 03.1 - Creating a Communication Unit
 
 === Video
 image:https://img.youtube.com/vi/mX9UCVqIBzY/0.jpg[link="https://www.youtube.com/watch?v=mX9UCVqIBzY"]
@@ -22,7 +22,7 @@ This video does not include any slides.
 === SourceCodes
 This chapter does not include any sourcecodes
 
-== Creating a Farming Software
+== 03.2 - Creating a Farming Software
 
 === Video
 image:https://img.youtube.com/vi/pI7ml_YL12M/0.jpg[link="https://www.youtube.com/watch?v=pI7ml_YL12M"]
@@ -40,7 +40,7 @@ This video includes slides about the authentication process. They can be found l
 === SourceCodes
 This chapter does not include any sourcecodes
 
-== Creating a Telemetry Platform
+== 03.3 - Creating a Telemetry Platform
 
 === Video
 image:https://img.youtube.com/vi/umExo4TWcUo/0.jpg[link="https://www.youtube.com/watch?v=umExo4TWcUo"]

@@ -22,17 +22,17 @@ Each chapter includes a Video for the description, some text or links to section
 
 == Overview of Topics
 
-- link:./01-introduction/index.adoc[Introduction]
-- link:./02-create-developer-account/index.adoc[Create Developer Account]
-- link:./03-create-application/index.adoc[Create Applications]
-- link:./04-create-maven-project/index.adoc[Create Maven Project]
-- link:./05-onboard-appinstances/index.adoc[Onboard AppInstances ]
-- link:./06-message-exchange/index.adoc[Basics of message exchange]
-- link:./07-send-capabilities/index.adoc[Send Capabilities]
-- link:./08-routings/index.adoc[Basics of Routings]
-- link:./09-request-endpointlist/index.adoc[Request EndpointList]
-- link:./10-send-file/index.adoc[Send File]
-- link:./11-receive-file/index.adoc[Receive File]
+- link:./01-introduction/index.adoc[01 - Introduction]
+- link:./02-create-developer-account/index.adoc[02 - Create Developer Account]
+- link:./03-create-application/index.adoc[03 - Create Applications]
+- link:./04-create-maven-project/index.adoc[04 - Create Maven Project]
+- link:./05-onboard-appinstances/index.adoc[05 - Onboard AppInstances ]
+- link:./06-message-exchange/index.adoc[06 - Basics of message exchange]
+- link:./07-send-capabilities/index.adoc[07 - Send Capabilities]
+- link:./08-routings/index.adoc[08 - Basics of Routings]
+- link:./09-request-endpointlist/index.adoc[09 - Request EndpointList]
+- link:./10-send-file/index.adoc[10 - Send File]
+- link:./11-receive-file/index.adoc[11 - Receive File]
 
 
 == Related Topics
