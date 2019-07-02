@@ -1,4 +1,4 @@
-= Set up the routings
+= 08 - Set up the routings
 :imagesdir: images
 
 == About this chapter

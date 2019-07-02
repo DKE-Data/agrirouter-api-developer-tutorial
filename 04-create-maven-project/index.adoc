@@ -1,4 +1,4 @@
-= Creating a maven project
+= 04 - Creating a maven project
 :imagesdir: images
 
 == About this chapter

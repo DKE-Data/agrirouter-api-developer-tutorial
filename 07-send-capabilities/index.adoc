@@ -1,4 +1,4 @@
-= Send Capabilities
+= 07 - Send Capabilities
 :imagesdir: images
 
 == About this chapter

@@ -1,4 +1,4 @@
-= Basics of communication
+= 06 - Basics of communication
 :imagesdir: images
 
 == About this chapter

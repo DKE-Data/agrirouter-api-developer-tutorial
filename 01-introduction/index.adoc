@@ -1,4 +1,4 @@
-= Introduction
+= 01 - Introduction
 :imagesdir: images
 
 == About this chapter
