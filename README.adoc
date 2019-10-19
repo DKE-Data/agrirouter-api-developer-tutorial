@@ -36,7 +36,7 @@ Each chapter includes a Video for the description, some text or links to section
 
 
 == Related Topics
-- link:https://github.com//DKE-Data/agrirouter-api-documentation[API Documentation]
+- link:https://github.com//DKE-Data/agrirouter-interface-documentation[Interface Documentation]
 - link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
 - link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
 - link:https://my-agrirouter.com[Agrirouter Website]
