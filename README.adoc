@@ -33,6 +33,7 @@ Each chapter includes a Video for the description, some text or links to section
 - link:./09-request-endpointlist/index.adoc[09 - Request EndpointList]
 - link:./10-send-file/index.adoc[10 - Send File]
 - link:./11-receive-file/index.adoc[11 - Receive File]
+- link:./12-mqtt-impl/index.adoc[12 - MQTT Implementation]
 
 
 == Related Topics
