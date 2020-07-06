@@ -22,6 +22,12 @@ Each chapter includes a Video for the description, some text or links to section
 
 == Overview of Topics
 
+NOTE
+====
+The Java libraries have been updated over time, so that there are minor differences between the implementation shown in the videos compared to the 
+current implementation. The sourcecodes found in this tutorial have been updated to fit the current Java Implementation. 
+====
+
 - link:./01-introduction/index.adoc[01 - Introduction]
 - link:./02-create-developer-account/index.adoc[02 - Create Developer Account]
 - link:./03-create-application/index.adoc[03 - Create Applications]
@@ -33,7 +39,7 @@ Each chapter includes a Video for the description, some text or links to section
 - link:./09-request-endpointlist/index.adoc[09 - Request EndpointList]
 - link:./10-send-file/index.adoc[10 - Send File]
 - link:./11-receive-file/index.adoc[11 - Receive File]
-
+- link:./12-mqtt-impl/index.adoc[12 - MQTT Implementation]
 
 == Related Topics
 - link:https://github.com//DKE-Data/agrirouter-interface-documentation[Interface Documentation]

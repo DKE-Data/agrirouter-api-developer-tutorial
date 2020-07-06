@@ -97,20 +97,20 @@
         </dependency>
 
         <dependency>
-            <groupId>com.agrirouter.api.lmis</groupId>
+            <groupId>com.agrirouter.api</groupId>
             <artifactId>agrirouter-api-java-api</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.agrirouter.api.lmis</groupId>
+            <groupId>com.agrirouter.api</groupId>
             <artifactId>agrirouter-api-java-impl</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.3.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>com.agrirouter.proto</groupId>
             <artifactId>agrirouter-api-protobuf-definitions</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.2.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -122,6 +122,12 @@
             <artifactId>protobuf-java-util</artifactId>
             <version>3.5.1</version>
         </dependency>
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>3.6</version>
+        </dependency>
+
     </dependencies>
 
 
