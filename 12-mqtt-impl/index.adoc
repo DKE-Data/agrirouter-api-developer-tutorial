@@ -1,0 +1,40 @@
+= 12 - MQTT Connection
+:imagesdir: images
+
+== About this chapter
+In this chapter, we will implement a full solution exchanging files over agrirouter **via MQTT**.
+
+== Video
+
+image:https://img.youtube.com/vi/SVYzpsP-hbA/0.jpg[link="https://www.youtube.com/watch?v=SVYzpsP-hbA"]
+
+If the video is not shown, click link:https://youtu.be/SVYzpsP-hbA[here]
+
+== Description
+In this chapter, we will implement a full solution exchanging files over agrirouter **via MQTT**.
+
+Additionally, we show some news like new groups and endpoint names. 
+
+
+== Slides
+
+The slides can be found here: link:./slides/12_mqtt.pdf[here].
+
+== SourceCodes
+The source codes to this chapter can be found link:./src[here].
+
+
+== Related Topics
+- link:https://github.com//DKE-Data/agrirouter-interface-documentation[Interface Documentation]
+- link:https://github.com//DKE-Data/agrirouter-api-java[JAVA API]
+- link:https://github.com/DKE-Data/agrirouter-postman-tools[Postman Tools]
+- link:https://my-agrirouter.com[Agrirouter Website]
+
+
+==== Link Section
+This page is found in every file and links to the major topics
+[width="100%"]
+|====
+|link:../10-request-endpointlist/index.adoc[<<Previous]|link:../README.adoc[OverView]|link:../12-receive-file/index.adoc[Next>>]
+|====
+

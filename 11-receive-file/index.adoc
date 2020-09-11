@@ -6,9 +6,9 @@ In this chapter, we will read a file from our app instances feed.
 
 == Video
 
-image:https://img.youtube.com/vi/Pwfs_98IZr8/0.jpg[link="https://www.youtube.com/watch?v=Pwfs_98IZr8"]
+image:https://img.youtube.com/vi/7iMlSunit0o/0.jpg[link="https://www.youtube.com/watch?v=7iMlSunit0o"]
 
-If the video is not shown, click link:https://youtu.be/Pwfs_98IZr8[here]
+If the video is not shown, click link:https://youtu.be/7iMlSunit0o[here]
 
 
 == Description
