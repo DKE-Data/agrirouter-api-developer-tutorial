@@ -14,15 +14,6 @@ public class Main {
     public static void main(String[] arguments){
         //TODO: Create Environment
         environment = new QA() {
-            @Override
-            public String getAgrirouterLoginUsername() {
-                return null;
-            }
-
-            @Override
-            public String getAgrirouterLoginPassword() {
-                return null;
-            }
         };
 
 

@@ -1,3 +1,5 @@
+*target*
+*.idea*
 encodings.xml
 misc.xml
 modules.xml

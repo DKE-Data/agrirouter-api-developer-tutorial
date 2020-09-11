@@ -15,15 +15,6 @@ public class Main {
     public static void main(String[] arguments){
 
         environment = new QA() {
-            @Override
-            public String getAgrirouterLoginUsername() {
-                return null;
-            }
-
-            @Override
-            public String getAgrirouterLoginPassword() {
-                return null;
-            }
         };
 
         Telemetry.configure(environment);

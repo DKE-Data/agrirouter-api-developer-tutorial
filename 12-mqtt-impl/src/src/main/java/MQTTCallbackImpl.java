@@ -4,7 +4,7 @@ import agrirouter.response.payload.account.Endpoints;
 import com.dke.data.agrirouter.api.dto.encoding.DecodeMessageResponse;
 import com.dke.data.agrirouter.api.dto.messaging.FetchMessageResponse;
 import com.dke.data.agrirouter.api.dto.onboard.OnboardingResponse;
-import com.dke.data.agrirouter.api.factories.impl.parameters.MessageConfirmationMessageParameters;
+import com.dke.data.agrirouter.api.service.parameters.MessageConfirmationParameters;
 import com.dke.data.agrirouter.api.service.messaging.MessageConfirmationService;
 import com.dke.data.agrirouter.api.service.messaging.encoding.DecodeMessageService;
 import com.dke.data.agrirouter.api.service.parameters.MessageConfirmationParameters;
@@ -74,8 +74,6 @@ public class MQTTCallbackImpl implements MqttCallback {
 
 
   public synchronized void confirmMessages(OnboardingResponse onboardingResponse, List<String> messages){
-    MessageConfirmationMessageParameters confirmationMessageParameters = new MessageConfirmationMessageParameters();
-    confirmationMessageParameters.setMessageIds(messages);
     MessageConfirmationParameters parameters  = new MessageConfirmationParameters();
     parameters.setMessageIds(messages);
     parameters.setOnboardingResponse(onboardingResponse);

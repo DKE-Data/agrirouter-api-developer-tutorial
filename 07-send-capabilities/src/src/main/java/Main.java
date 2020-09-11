@@ -49,15 +49,6 @@ public class Main {
   public static void main(String[] arguments) throws IOException {
 
     environment = new QA() {
-      @Override
-      public String getAgrirouterLoginUsername() {
-        return null;
-      }
-
-      @Override
-      public String getAgrirouterLoginPassword() {
-        return null;
-      }
     };
 
     onboardingResponse = loadOnboardingResponse("./cu/onboard-CU1.json");

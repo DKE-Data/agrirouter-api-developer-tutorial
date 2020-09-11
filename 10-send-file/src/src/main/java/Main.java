@@ -3,7 +3,6 @@ import agrirouter.request.payload.account.Endpoints;
 import agrirouter.response.Response;
 import agrirouter.response.payload.account.Endpoints.ListEndpointsResponse;
 import com.dke.data.agrirouter.api.dto.encoding.DecodeMessageResponse;
-import com.dke.data.agrirouter.api.dto.encoding.EncodeMessageResponse;
 import com.dke.data.agrirouter.api.dto.messaging.FetchMessageResponse;
 import com.dke.data.agrirouter.api.dto.messaging.inner.Message;
 import com.dke.data.agrirouter.api.dto.onboard.OnboardingResponse;
@@ -66,15 +65,6 @@ public class Main {
   public static void main(String[] arguments) throws IOException {
 
     environment = new QA() {
-      @Override
-      public String getAgrirouterLoginUsername() {
-        return null;
-      }
-
-      @Override
-      public String getAgrirouterLoginPassword() {
-        return null;
-      }
     };
 
     onboardingResponse = loadOnboardingResponse("./cu/onboard-CU1.json");

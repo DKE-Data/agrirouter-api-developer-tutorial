@@ -167,17 +167,7 @@ public static void  publishImage(OnboardingResponse onboardingResponse, String f
     //TODO: 1.) Load KeyStore
     System.setProperty("javax.net.ssl.keyStore",Main.class.getClassLoader().getResource("keystore.jks").getPath());
     System.setProperty("javax.net.ssl.keystorePassword","changeit");
-    environment = new QA() {
-      @Override
-      public String getAgrirouterLoginUsername() {
-        return null;
-      }
-
-      @Override
-      public String getAgrirouterLoginPassword() {
-        return null;
-      }
-    };
+    environment = new QA() {};
 
     routerDevice = loadRouterDevice("./routerdevice.json");
 
