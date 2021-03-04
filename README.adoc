@@ -12,13 +12,13 @@
 </p>
 ++++
 
-The agrirouter is a universal data exchange platform for farmers and agricultural contractors that makes it possible to connect machinery and agricultural software, regardless of vendor or manufacturer. Agrirouter does not save data; it transfers data. As a universal data exchange platform, agrirouter fills a gap on the way to Farming 4.0. Its underlying concept unites cross-vendor and discrimination-free data transfer. You retain full control over your data. Even data exchange with service providers (e.g. agricultural contractors) and other partners is uncomplicated: Data are very rapidly transferred via the online connection, and if you wish, is intelligently connected to other datasets.
+The agrirouter is a universal data exchange platform for farmers and agricultural contractors that makes it possible to connect machinery and agricultural software, regardless of vendor or manufacturer. Agrirouter does not save data; it transfers data. As a universal data exchange platform, agrirouter fills a gap on the way to Farming 4.0. Its underlying concept unites cross-vendor and discrimination-free data transfer. You retain full control over your data. Even data exchange with service providers (e.g. agricultural contractors) and other partners is uncomplicated: Data is very rapidly transferred via the online connection, and if you wish, is intelligently connected to other datasets.
 
 === The current project you're looking at
 
 This repository includes a tutorial, that shall help you to understand agrirouter and do an example implementation - using the Java API - step by step.
 
-Each chapter includes a Video for the description, some text or links to sections in the documentation and an example Java Project or PDF-slides.
+Each chapter includes a video for the description, some text or links to sections in the documentation and an example Java project or PDF-slides.
 
 == Overview of Topics
 
@@ -38,7 +38,7 @@ Each chapter includes a Video for the description, some text or links to section
 == Version information
 
 The Java libraries have been updated over time, so that there are minor differences between the implementation shown in the videos compared to the 
-current implementation. The source codes found in this tutorial have been updated to fit the current Java Implementation. 
+current implementation. The source codes found in this tutorial have been updated to fit the current Java implementation. 
 
 == Related Topics
 
