@@ -13,8 +13,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -64,6 +64,16 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>dke-agrirouter-proto</id>
+            <name>GitHub DKE-Data Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/DKE-Data/agrirouter-api-protobuf-definitions</url>
+        </repository>
+        <repository>
+            <id>dke-agrirouter-api</id>
+            <name>GitHub DKE-Data Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/DKE-Data/agrirouter-api-java</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -99,18 +109,18 @@
         <dependency>
             <groupId>com.agrirouter.api</groupId>
             <artifactId>agrirouter-api-java-api</artifactId>
-            <version>1.3.0-SNAPSHOT</version>
+            <version>1.4.2</version>
         </dependency>
         <dependency>
             <groupId>com.agrirouter.api</groupId>
             <artifactId>agrirouter-api-java-impl</artifactId>
-            <version>1.3.0-SNAPSHOT</version>
+            <version>1.4.2</version>
         </dependency>
 
         <dependency>
             <groupId>com.agrirouter.proto</groupId>
             <artifactId>agrirouter-api-protobuf-definitions</artifactId>
-            <version>1.2.0-SNAPSHOT</version>
+            <version>1.1.1</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>

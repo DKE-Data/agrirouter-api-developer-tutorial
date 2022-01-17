@@ -12,16 +12,28 @@ import com.dke.data.agrirouter.api.service.parameters.SecuredOnboardingParameter
 import com.dke.data.agrirouter.impl.onboard.secured.AuthorizationRequestServiceImpl;
 import com.dke.data.agrirouter.impl.onboard.secured.OnboardingServiceImpl;
 
+import java.util.UUID;
+
 
 public class Telemetry {
   private static Environment environment;
-  private static String applicationID;
+  private static final String applicationID = "63d1cb74-4ac6-410c-a6bf-b008db87aba1";
+  private static final String certificationVersionID = "cc9b00a1-8009-409b-ab06-88cb08109322";
+  private static final String privateKey = "-----BEGIN PRIVATE KEY-----MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDfkxAuXpBFdlbj6QU6oTjROpl0hrD1PSQADMLfBFH/gR5y+CziZLDLC7p6yu1Dc+eszvSqcxisopjkvajvOhUb/IQX00NcbOviGMd1nPbu5lcuxwEL4qzog+BrXa7StazclXmo9t4qpJ1ME0kbXhTmgYjLz37xpDu47P8AqaQFIs3PMyylsExZfwYzkBIvgMIm2y4wrQCP1kzxaeQxdt7lGuceNxbVRbzMkdlbUW27d3KC45x4/2saR8a7ojWEqBqHNHMlPz/8cEIPRLIMkhsIPIeIFAR/7IsHfEk2IrrN82/SDm9AO21OrDeCsUna186Gc4CsVP0uTGWfADvos16lAgMBAAECggEAJo5QDg8UxkXgOjGnSzMef0ahzCymO8Stfqy0to0iLvPvclhGNUy0CHAfWqnAPQ+x9mVCYFq0+KCZyWjDx2220jq79Pfj9/54t2cajrfhBdYHVvPOxGP0+aw0eY+QZJocE3Zbor3gFm6JCeORifyxkgbotm00MSvneL62Q0D+HjxNudFEnLrmajqHWxQelvEKrRUmyUY0k6axJdVS8AVoyuUzeNKEit4VYtMz51z2LRx2sqL9KaHPnMllnRQ7wL/+KQ0Ss4or8QJa2o0A9LnKLftbYsU5+uQxILLwBgCWfgcL6ILIKdg1O3gpY7ZKrwc5Er053ntQdHZ9+Jt8moF+wQKBgQD4vdqDS5AJgZsqW92z2i1qy0DHbygTpEl1VPA+AnamHq9etAGXZllB4jE6qS60DAFWCFzk0hoU2A0AxB/B1rMa5M+lALFOSD03bMjPVqidRJ4zdSVv8vQYivUYs7kfJZX+MLZ8byTmjhxqLJ1k9olqpwCXsHChCRe449UGf9ypLQKBgQDmGTTRcbGnV56aEsg2IGvnR0/WddfJIpAhk7ileT4V4sdxFX64QW04zLycdpbvRpLKo4gJIrqLP4iu5cE4oQ1Ced24nE/7sFeOzfoP4e2vDr09DsuuUx3GgD3IyuGleWXH5Q3R0qpGs++vtjcVpuETJWNQAbWKxA6zul2aHYuGWQKBgFWRcicyilVK2acDvUvOpUsUqq8wxPekz4RmeNLMJCbXbXrFr7p2ggQRHOBSLPfRHXCMJfCtej1raWW3EjmrcyewSOI5T8VfQnfbm2UAKbcYUNfg18UgLep3ewNJaEiXtHaiKVS7I1WQ06OOv4Jo8TLYSnLkRoqPRzLaZYD74VvtAoGBAIpacaXWBQon5xehX30cNYVVHa5IIT2xaJSn7AijRC+Isn9Oe2ly/ad/g5FYxRyOhMkPV0aW+S+tPhRb1bilLgHgoO7WHkmqGJunQkq2gGIYLLU/5jylgWvPxFatlswWmJp/IbYeQ4BLxT0UBT8hnogSnQqIXI5ZoLV0w79dMH3RAoGBANT4lqV5Ns0JoWtzVF6RbLl1tkVVakOeyT6vb5q6g5ESTIAliHtHISjOsaCRv2uBYDN2YLBjDdWQ8QUpAOblQqwN7YoiiDZtpgYiVZ2op4oKUL5WQYH7I3vXGY/osLxABxE/emZ15GuWPjj8RoWCwNOl4ufhU4KwitaEOvHjljaN-----END PRIVATE KEY-----";
+  private static final String publicKey = "-----BEGIN PUBLIC KEY-----\n" +
+          "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA35MQLl6QRXZW4+kFOqE4\n" +
+          "0TqZdIaw9T0kAAzC3wRR/4Eecvgs4mSwywu6esrtQ3PnrM70qnMYrKKY5L2o7zoV\n" +
+          "G/yEF9NDXGzr4hjHdZz27uZXLscBC+Ks6IPga12u0rWs3JV5qPbeKqSdTBNJG14U\n" +
+          "5oGIy89+8aQ7uOz/AKmkBSLNzzMspbBMWX8GM5ASL4DCJtsuMK0Aj9ZM8WnkMXbe\n" +
+          "5RrnHjcW1UW8zJHZW1Ftu3dyguOceP9rGkfGu6I1hKgahzRzJT8//HBCD0SyDJIb\n" +
+          "CDyHiBQEf+yLB3xJNiK6zfNv0g5vQDttTqw3grFJ2tfOhnOArFT9LkxlnwA76LNe\n" +
+          "pQIDAQAB\n" +
+          "-----END PUBLIC KEY-----\n";
   private static AuthorizationRequestService authorizationService;
 
   public static void configure(Environment environment){
     Telemetry.environment = environment;
     authorizationService = new AuthorizationRequestServiceImpl(environment);
-    applicationID = "63d1cb74-4ac6-410c-a6bf-b008db87aba1";
   }
 
   public static String getAuthorizationRedirectURL(){
@@ -43,22 +55,14 @@ public class Telemetry {
   public static OnboardingResponse onboard(String registrationCode){
     OnboardingService onboardingService = new OnboardingServiceImpl(environment);
     SecuredOnboardingParameters parameters = new SecuredOnboardingParameters();
-    parameters.setPrivateKey("-----BEGIN PRIVATE KEY-----MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQktn7d15uWo9Pa+d4fivcm+0bLglxd4eu3lX0s2mPNNrAQ0A957DRgP6Gubf+xOuTZbKb4E5CNYVUuJp/gig0OjPhQwVuOsxuuJlkeIcisiIYHTZzKUMx8MDSzi8DwxXIXrQ6EeZGrFFH7Eea27l8eCWdUHVWlWs0QiUIaoXeOvAhxwFKta9RUljIUjJHZ/oOrQUsxXm2FsjhReqduNa1Dur2+pLlqJXfsiGetLag1ys0JUkl4+/laqi9Rc4l9arKAcxfM2MvYn/k/1uw2/WdgcwsMOgAdCuqQ4HcTYd/Cj9k5C2BeT5kY+YUCzzMvAfUJ0rJXZZDO3x7sOzf6oI1AgMBAAECggEACiNz8x73TnfvysAyV+S82b6+miP1E43oNjOFNsgt07yRpueIojm2mkh3QYdE5AkgcQwa0Cw+wZsmaFrc2mEyS8T0gU5SX5b+GaJhhRpoFI4CIu1F7ffN1gn05YpeNgRFSnXICaFAcfkDA8hUJrk9h/OzKGAhLrHurHNL/N++CBz7e2q2O1m5bEEGV8mNjSwAZuhVRRwew+dR/NoA7b15S1pUgj9cZQsOYmmbiijxYKKgGvLjCIKTmNq93etZ8kkAHJsbE1MRr0ODwnnJeNWAYzMTX+bnItBKkaAlv68VB1rH1WD5GrPkYuSUxWMOGcxzVoAjIHFBidoAHLbd8BTWAQKBgQDzu5it8AUF5i4D8rkjVCcjzHBcTLj4l4cwoxlFC0KMGxCt3+T+w/xcDPyVBt9Qt7C4IaJLNBru7nHjIXSsc1vjLJG/nlf63Ln2pl832ifUS3KkNCh6XlNXt9YQGCAl33v3uoWaDZ+gC4l8hTQ1POHXTBv8VE3cGpgD6clp92WIgQKBgQDbEj4ob+HAzhUmIjB0wvdQp3woE4Bd3cHUEgfcDMqIW9MfjTlQYeXPQUIhHfE9Y8CgpNIsvFLW2Shk6MjCGTmA4FVQyJ0TAehJVRvzu8kBhaPNfEGdXPUii7Jc93XjnE2aE0E0rj7I2RVetkHQxKh2a/XagT7R1Fnq8e+n2el/tQKBgQDHr1F2Z+flnmDi0TCHVkG+3ZbMt/rviE21NlrUq1X5LY9rtLyLUYxm6ijh+8BoBCbfpIavsF/Ek0xxNo69XsHQjEpYwGT6XW5qOoJWYwAwuSOSjjz/jFohyraxduKXxNJu8rzUqwa1e95HS2arm1a4Kl3fTD6B7rPOuPJQQ+VGgQKBgQDANZBd8FQ101sQ+zxipdFSbbDshLfDI9d1l2BX/M0SuOZTL5iS42I75vj7j4bjIwuWpyZU4+MW6K+dYfULABDI94tDdtECJVFGTitZPXDOKhAfMZ9sT2wxJDqZgPFpg/E+dxhl/V/O31D1qZmzb2iThoPOdEnG1rcSAbYRIovRZQKBgFwithddwtkEpS/DTD2gHfAJnhUsI/ItQZsMYRVZ2Picc30lsBisMV6oxd9DOhR5XaMagMW7GWMqawBSWKfw1PfcB9AMOLHQ5FOD7BRdgcsgdGGp1JX3wj4VjrQ8uBLn+VDtVdiYKNV6iBoh0htbwjzh4w66H7X107RhREX5X/+F-----END PRIVATE KEY-----");
+    parameters.setPrivateKey(privateKey);
     parameters.setCertificationType(CertificationType.PEM);
     parameters.setApplicationId( applicationID);
     parameters.setGatewayId(Gateway.REST.getKey());
-    parameters.setPublicKey("-----BEGIN PUBLIC KEY-----\n" +
-      "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0JLZ+3deblqPT2vneH4r\n" +
-      "3JvtGy4JcXeHrt5V9LNpjzTawENAPeew0YD+hrm3/sTrk2Wym+BOQjWFVLiaf4Io\n" +
-      "NDoz4UMFbjrMbriZZHiHIrIiGB02cylDMfDA0s4vA8MVyF60OhHmRqxRR+xHmtu5\n" +
-      "fHglnVB1VpVrNEIlCGqF3jrwIccBSrWvUVJYyFIyR2f6Dq0FLMV5thbI4UXqnbjW\n" +
-      "tQ7q9vqS5aiV37IhnrS2oNcrNCVJJePv5WqovUXOJfWqygHMXzNjL2J/5P9bsNv1\n" +
-      "nYHMLDDoAHQrqkOB3E2Hfwo/ZOQtgXk+ZGPmFAs8zLwH1CdKyV2WQzt8e7Ds3+qC\n" +
-      "NQIDAQAB\n" +
-      "-----END PUBLIC KEY-----\n");
-    parameters.setCertificationVersionId("89a9e541-d9c0-452c-8dac-73a170cc507f");
+    parameters.setPublicKey(publicKey);
+    parameters.setCertificationVersionId(certificationVersionID);
     parameters.setRegistrationCode(registrationCode);
-    parameters.setUuid("DKE:Data:Telemetry:Example:00006");
+    parameters.setUuid("DKE:Data:Telemetry:Example"+ UUID.randomUUID());
     OnboardingResponse onboardingResponse = onboardingService.onboard(parameters); //TODO Request Onboarding Response
 
     return onboardingResponse;

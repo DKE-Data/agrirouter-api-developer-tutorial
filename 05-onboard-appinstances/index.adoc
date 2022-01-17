@@ -20,6 +20,9 @@ In this video we onboard a communication Unit using the JavaAPI
 === SourceCodes
 The SourceCodes can be found link:./src/01-cu/[here].
 
+
+**Remark**: The onboarding code in this repository delivers credentials for an HTTP REST Connection
+
 === Slides
 
 There are no slides available for this chapter.
@@ -38,6 +41,7 @@ If the video is not shown, click link:https://youtu.be/Pla8qGKvFr4[here]
 
 In this video we onboard a Farming Software using the JavaAPI
 
+**Remark**: The onboarding code in this repository delivers credentials for an MQTT Connection
 
 === SourceCodes
 The SourceCodes can be found link:./src/02-fmis/[here].
@@ -63,6 +67,9 @@ In this video we onboard a telemetry platform using the JavaAPI
 === SourceCodes
 The SourceCodes can be found link:./src/03-telemetry/[here].
 
+
+
+**Remark**: The onboarding code in this repository delivers credentials for an HTTP REST Connection
 
 === Slides
 

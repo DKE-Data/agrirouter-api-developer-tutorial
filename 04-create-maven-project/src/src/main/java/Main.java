@@ -1,4 +1,5 @@
 import agrirouter.request.Request;
+import com.dke.data.agrirouter.api.env.QA;
 import com.dke.data.agrirouter.api.service.messaging.MessageConfirmationService;
 import com.dke.data.agrirouter.impl.messaging.rest.MessageConfirmationServiceImpl;
 import com.google.gson.Gson;
@@ -16,7 +17,8 @@ public class Main {
 
   public static void main(String[] arguments) throws IOException {
     System.out.println("Hello world");
-    MessageConfirmationService messageConfirmationService = new MessageConfirmationServiceImpl()
+    QA qa = new QA() {};
+    MessageConfirmationService messageConfirmationService = new MessageConfirmationServiceImpl(qa);
 
   }
 }
