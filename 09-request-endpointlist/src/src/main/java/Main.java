@@ -1,6 +1,7 @@
 import agrirouter.request.payload.account.Endpoints;
 import agrirouter.response.Response;
 import agrirouter.response.payload.account.Endpoints.ListEndpointsResponse;
+import agrirouter.response.payload.account.Endpoints.*;
 import com.dke.data.agrirouter.api.dto.encoding.DecodeMessageResponse;
 import com.dke.data.agrirouter.api.dto.messaging.FetchMessageResponse;
 import com.dke.data.agrirouter.api.dto.messaging.inner.Message;
@@ -24,6 +25,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.Objects;
 import java.util.Optional;
 
 public class Main {
@@ -35,7 +37,7 @@ public class Main {
 
   public static OnboardingResponse loadOnboardingResponse(String path) throws IOException {
     ClassLoader classLoader = ClassLoader.getSystemClassLoader();
-    String fullPath = classLoader.getResource(path).getPath();
+    String fullPath = Objects.requireNonNull(classLoader.getResource(path).getPath());
     fullPath = new File(fullPath).toString();
     byte[] input = Files.readAllBytes(Paths.get(fullPath));
     String inputString = new String(input);
@@ -79,7 +81,7 @@ public class Main {
         case ENDPOINTS_LISTING:
           System.out.println("Received an Endpoint list");
           Response.ResponsePayloadWrapper payloadWrapper = decodedMessage.getResponsePayloadWrapper();
-          ListEndpointsResponse listEndpointsResponse = ListEndpointsResponse.parseFrom(payloadWrapper.getDetails().getValue().toByteArray());
+          ListEndpointsResponse listEndpointsResponse =ListEndpointsResponse.parseFrom(payloadWrapper.getDetails().getValue().toByteArray());
           Gson gson = new GsonBuilder().setPrettyPrinting().create();
           String listEndpointsGson = gson.toJson(listEndpointsResponse, ListEndpointsResponse.class);
           System.out.println("This is the raw endpoint List");

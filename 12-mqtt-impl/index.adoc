@@ -23,6 +23,10 @@ The slides can be found here: link:./slides/12_mqtt.pdf[here].
 == SourceCodes
 The source codes to this chapter can be found link:./src[here].
 
+=== Onboarding Answers
+
+This example uses the MQTT Interface and can therefore not be run with Onboarding Responses for the HTTP Interface.
+To receive credentials for this code, use the link:../05-onboard-appinstances/src/02-fmis[Onboarding Example for FMIS]
 
 == Related Topics
 - link:https://github.com//DKE-Data/agrirouter-interface-documentation[Interface Documentation]

@@ -11,6 +11,8 @@ import com.dke.data.agrirouter.api.service.parameters.SecuredOnboardingParameter
 import com.dke.data.agrirouter.impl.onboard.secured.AuthorizationRequestServiceImpl;
 import com.dke.data.agrirouter.impl.onboard.secured.OnboardingServiceImpl;
 
+import java.util.UUID;
+
 public class Telemetry {
     private static final String applicationID = "63d1cb74-4ac6-410c-a6bf-b008db87aba1";
     private static final String certificationVersionID = "89a9e541-d9c0-452c-8dac-73a170cc507f";
@@ -37,7 +39,7 @@ public class Telemetry {
         OnboardingService onboardingService = new OnboardingServiceImpl(environment);
 
         SecuredOnboardingParameters onboardingParameters = new SecuredOnboardingParameters();
-        onboardingParameters.setGatewayId(Gateway.REST.getKey());
+        onboardingParameters.setGatewayId(Gateway.MQTT.getKey());
         onboardingParameters.setCertificationVersionId(certificationVersionID);
         onboardingParameters.setCertificationType(CertificationType.PEM);
         onboardingParameters.setApplicationId(applicationID);
@@ -45,7 +47,7 @@ public class Telemetry {
         onboardingParameters.setCertificationType(CertificationType.PEM);
         onboardingParameters.setPrivateKey(privateKey);
         onboardingParameters.setPublicKey(publicKey);
-        onboardingParameters.setUuid("DKEData:ExampleTelemetry:000004");
+        onboardingParameters.setUuid("DKEData:ExampleTelemetry:"+ UUID.randomUUID());
 
         OnboardingResponse onboardingResponse = onboardingService.onboard(onboardingParameters);
 

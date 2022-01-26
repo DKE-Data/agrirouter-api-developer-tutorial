@@ -8,18 +8,14 @@
     <artifactId>maven-project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <properties>
-        <agrirouter-api-java-api.version>0.0.1-SNAPSHOT</agrirouter-api-java-api.version>
-    </properties>
-
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -60,23 +56,23 @@
 
     <repositories>
         <repository>
-            <id>snapshots-repo</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
+            <id>dke-agrirouter-proto</id>
+            <name>GitHub DKE-Data Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/DKE-Data/agrirouter-api-protobuf-definitions</url>
         </repository>
+        <repository>
+            <id>dke-agrirouter-api</id>
+            <name>GitHub DKE-Data Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/DKE-Data/agrirouter-api-java</url>
+        </repository>
+
     </repositories>
 
     <dependencies>
         <dependency>
             <groupId>com.agrirouter.proto</groupId>
             <artifactId>agrirouter-api-protobuf-definitions</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <classifier>jdk10</classifier>
+            <version>1.1.1</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -84,16 +80,14 @@
             <version>2.3</version>
         </dependency>
         <dependency>
-            <groupId>com.agrirouter.api.lmis</groupId>
+            <groupId>com.agrirouter.api</groupId>
             <artifactId>agrirouter-api-java-api</artifactId>
-            <version>${agrirouter-api-java-api.version}</version>
-            <classifier>jdk8</classifier>
+            <version>1.4.2</version>
         </dependency>
         <dependency>
-            <groupId>com.agrirouter.api.lmis</groupId>
+            <groupId>com.agrirouter.api</groupId>
             <artifactId>agrirouter-api-java-impl</artifactId>
-            <version>${agrirouter-api-java-api.version}</version>
-            <classifier>jdk8</classifier>
+            <version>1.4.2</version>
         </dependency>
     </dependencies>
 

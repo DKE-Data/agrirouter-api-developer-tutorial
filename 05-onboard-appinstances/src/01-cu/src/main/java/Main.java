@@ -9,6 +9,8 @@ import com.dke.data.agrirouter.api.service.parameters.OnboardingParameters;
 import com.dke.data.agrirouter.impl.onboard.OnboardingServiceImpl;
 import com.google.gson.Gson;
 
+import java.util.UUID;
+
 public class Main {
 
   public static void main(String[] arguments){
@@ -25,7 +27,7 @@ public class Main {
     onboardingParameters.setApplicationId("5177c6ec-ff18-4e34-855a-4826db5c666c");
     onboardingParameters.setRegistrationCode("0b6b2a816a");
     onboardingParameters.setApplicationType(ApplicationType.APPLICATION);
-    onboardingParameters.setUuid("dke:data:examplecu:532ef");
+    onboardingParameters.setUuid("dke:data:examplecu:"+ UUID.randomUUID());
 
     OnboardingResponse onboardingResponse = onboardingService.onboard(onboardingParameters);
     System.out.println("Result: "+onboardingResponse.toString());
